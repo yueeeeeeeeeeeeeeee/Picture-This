@@ -15,8 +15,11 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
-
+    <picture>
+      <source media="(max-width: 959px)" srcset="images/museum.jpg" />
+      <source media="(min-width: 960px)" srcset="images/museum2.jpg" />
+      <img src="elva-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+    </picture>
   </header>
 </body>
 
